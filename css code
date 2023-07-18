@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 25px;
+}
+
+.navbar {
+  margin: 20px;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.effect {
+  color: #fff;
+  font-size: 20px;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  background-color: #696969;
+  width: 100%;
+  text-align: center;
+  transition: opacity 1s ease
+}
+/* This code block changes the effect block when the banner is selected */
+.banner:hover .effect {
+  opacity: 1;
+}
+
+.profilepicture {
+  text-align: center;
+}
+
+.profilepicture img {
+  margin-top: 30px;
+  width: 300px;
+}
+
+.jobdesc {
+  margin: 30px;
+  text-align: center;
+}
+
+.jobdesc h2{
+  margin: 40px;
+  text-align: center;
+}
+
+.line {
+  width: 300px; /* Adjust the width as needed */
+  height: 3px;
+  background-color: blue;
+  margin: 30px auto;
+}
+
+.project1 {
+  display: flex;
+  align-items: center;
+  margin-left: 40%;
+  margin-right: 30%;
+
+}
+
+.project1 img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  float: left;
+  margin-right: 10px;
+  width: 300px;
+}
+
+.project1 p {
+  text-align-last: center;
+}
+
+.dynamicimg {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.dynamicimg img {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  max-width: 100%;
+  width: 600px;
+  height: 100%;
+}
