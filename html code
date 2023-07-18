@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+  <link rel="stylesheet" type="text/css" href="Style1.1P.css">
+</head>
+<body>
+  <div class="navbar">
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="banner">
+    <img src="banner.jpg" alt="Banner Image">
+      <div class="effect">
+        <h2>Hey, I'm Seth</h2>
+      </div>
+    </div>
+  <div class="profilepicture">
+    <img src="profile_picture.png" alt="Profile Image">
+  </div>
+  <div class="jobdesc">
+    <h3>I am a software engineer student in Melbourne, Australia.</h3>
+    <h2>Here's what i've done so far.</h2>
+  </div>
+  <div class="line"></div>
+  <div class="project1">
+    <img src="2wd_assembled.png" alt="project image 1">
+    <p>Robotics Project: In my first year of study I worked in a team of 3
+    to make 3 rovers which have security features designed to protect a property
+    against intruders.</p>
+  </div>
+  <div class="project1">
+    <img src="Plant.jpg" alt="project image 2">
+    <p>Automatic Plant Watering System: In my first year of study I designed an
+    automatic plant watering system that uses a soil moisture sensor to activate a motor
+    using an arduino board everytime the plant becomes to dry.</p>
+  </div>
+  <div class="line"></div>
+  <div class="jobdesc">
+    <h2>My Photos</h2>
+  </div>
+  <div class="dynamicimg">
+    <img src="Deakin Partnership with PebblePad - Blog Banner.jpg" alt="Photo 1">
+    <img src="deakin-university-australia-video-still.jpg" alt="Photo 2">
+    <img src="Deakin-Law-School-9.jpg" alt="Photo 3">
+    <img src="210316-Deakin-LC-0028-2048x1365.jpg" alt="Photo 4">
+  </div>
+</body>
+</html>
